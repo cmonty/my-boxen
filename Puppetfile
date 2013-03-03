@@ -36,3 +36,6 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "tmux",     "1.0.0", :repo => "cmonty/puppet-tmux"
+github "encfs",    "1.0.0", :repo => "cmonty/puppet-encfs"
