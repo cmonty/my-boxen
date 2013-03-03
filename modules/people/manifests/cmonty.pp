@@ -1,8 +1,14 @@
 class people::cmonty {
+  include chrome
+  include dropbox
   include encfs
+  include onepassword
+  include spotify
   include tmux
-
-  package { "wget": }
+  include vagrant
+  include virtualbox
+  include viscosity
+  include wget
 
   $home = "/Users/${::luser}"
   $my = "${home}/my"
