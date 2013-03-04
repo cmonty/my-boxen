@@ -94,6 +94,11 @@ GITHUBTARBALL
     wget (1.0.0)
 
 GITHUBTARBALL
+  remote: cmonty/puppet-dotfiles
+  specs:
+    dotfiles (1.0.0)
+
+GITHUBTARBALL
   remote: cmonty/puppet-encfs
   specs:
     encfs (1.0.0)
@@ -117,6 +122,7 @@ DEPENDENCIES
   boxen (= 1.0.2)
   chrome (= 1.0.0)
   dnsmasq (= 1.0.0)
+  dotfiles (= 1.0.0)
   dropbox (= 1.0.0)
   encfs (= 1.0.0)
   gcc (= 1.0.0)

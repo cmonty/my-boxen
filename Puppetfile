@@ -38,6 +38,7 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 
 github "chrome",      "1.0.0"
+github "dotfiles",    "1.0.0", :repo => "cmonty/puppet-dotfiles"
 github "dropbox",     "1.0.0"
 github "encfs",       "1.0.0", :repo => "cmonty/puppet-encfs"
 github "onepassword", "1.0.0"
